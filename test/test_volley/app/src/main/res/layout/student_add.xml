@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView4444"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="nom  : " />
+
+    <EditText
+        android:id="@+id/nomeditTextStudent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="prenom :" />
+
+    <EditText
+        android:id="@+id/prenomeditTextStudent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Image" />
+
+    <EditText
+        android:id="@+id/imageeditTextStudent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="" />
+
+
+    <Spinner
+        android:id="@+id/spinnerfiliereTextStudent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/bnAddStudent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Envoyer" />
+
+    <Button
+        android:id="@+id/bnVoirStudents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Voir tous les etudiants" />
+
+    <Button
+        android:id="@+id/bnRetourStudent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Retour" />
+
+</LinearLayout>
